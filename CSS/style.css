@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    background-color: #23685b;
+    color: white;
+   text-align: center;
+   padding: 20px;
+}
+.heading> h1{
+    font-size: 43px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading> h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contect_information{
+    text-align: center;
+    padding: 20px;
+}
+.info{
+    padding-top: 50px;
+
+}
+.contect_information> .information{
+    margin-left: 20%;
+    text-align: start;
+}
+.contect_information> .information> p{
+    padding: 10px;
+}
+.contect_information> .information> h1{
+    border-bottom: 2px solid #2ed3b5;
+    width: 70%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.contect_information> .information> ul> li{
+    margin-left: 5vh;
+}
+#toggle{
+    cursor: pointer;
+    color: #23685b;
+}
+.toggle{
+    cursor: pointer;
+    color: #23685b;
+}
